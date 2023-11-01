@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
 import './Gym.css'
 import GymCart from '../GymCart/GymCart';
 import Category from '../Category/Category';
+import React, { useEffect, useState } from 'react';
 
 const Gym = () => {
     const [categories, setCategories] = useState([]);

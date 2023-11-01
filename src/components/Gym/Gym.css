@@ -15,16 +15,3 @@
 .gym-cart{
     background-color: #ffff;
 }
-
-.content{
-    display: flex;
-    align-items: center;
-}
-
-.logo{
-    width: 100px;
-}
-
-.logo-title{
-    font-size: 18px;
-}
