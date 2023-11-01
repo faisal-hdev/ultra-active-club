@@ -1,0 +1,59 @@
+.gym-category{
+    border-radius: 8px;
+    height: 470px;
+    position: relative;
+    width: 300px;
+    background-color: #ffff;
+}
+
+.card-img{
+    width: 270px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin: 14px;
+}
+
+.btn-info .age{
+    font-weight: 500;
+    margin-bottom: -12px;
+}
+.btn-info .time{
+    font-weight: 500;
+}
+
+.card-title{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-dicp{
+    line-height: 22px;
+    color: #343a40;
+    font-size: 16px;
+}
+
+.last-info{
+    margin-top: 25px;
+}
+
+.card-btn{
+    width: 260px;
+    height: 45px;
+    flex-shrink: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.2s;
+    background-color: #845ef7;
+}
+
+.card-btn:hover{
+    cursor: pointer;
+    background-color: #9775fa;
+}
+.btn-info{
+    padding-left: 20px;
+}

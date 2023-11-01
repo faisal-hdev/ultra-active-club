@@ -1,0 +1,30 @@
+.gym-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: #edf2ff;
+}
+
+.category-container{
+    grid-gap: 45px;
+    display: grid;
+    gap: 45px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 100px 60px;
+}
+
+.gym-cart{
+    background-color: #ffff;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo-title{
+    font-size: 18px;
+}
