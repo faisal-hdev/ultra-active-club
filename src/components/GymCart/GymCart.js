@@ -1,8 +1,18 @@
-import React from 'react';
 import './GymCart.css'
 import StaticInfo from '../StaticInfo/StaticInfo';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const GymCart = () => {
+const GymCart = (props) => {
+    const { userCart } = props;
+
+    let time = 0;
+    for (const category of userCart) {
+        time = time + category.Time;
+    };
+
+    const notify = () => toast ("Finished Gymnastics");
+
     return (
         <div className='cart-container'>
             <StaticInfo></StaticInfo>
@@ -10,7 +20,7 @@ const GymCart = () => {
                 <h4 className='b-title'>Add A Break</h4>
                 <div className='details-info'>
                     <div className='second'>
-                        <h5>20<small>s</small> </h5>
+                        <h5>20 <small>s</small> </h5>
                     </div>
                     <div className='second'>
                         <h5>60<small>s</small> </h5>
@@ -27,18 +37,19 @@ const GymCart = () => {
                 <h4 className='b-title'>Exercise Details</h4>
                 <div className='details-infoo'>
                     <div className='exr-time'>
-                        <h3>Exercise time </h3>
-                        <p>200 seconds</p>
+                        <h4>Exercise time </h4>
+                        <p>{time} seconds</p>
                     </div>
                     <div style={{marginTop:30}} className='exr-time'>
-                        <h3>Break time</h3>
+                        <h4>Break time</h4>
                         <p>15 seconds</p>
                     </div>
                 </div>
             </div>
-            <div className=''>
-                <button className='act-btn'>Activity Completed</button>
-            </div>
+                <div className='btn-div'>
+                <button onClick={notify} className='act-btn'>Activity Completed</button>
+                <ToastContainer></ToastContainer>
+                </div>
         </div>
     );
 };

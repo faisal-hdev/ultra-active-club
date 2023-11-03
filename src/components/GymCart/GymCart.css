@@ -1,6 +1,8 @@
 
 .cart-container{
     padding: 20px 15px;
+    position: sticky;
+    top: 0;
 }
 
 .user-info{
@@ -35,24 +37,27 @@
 
 .b-title{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .age p{
+    color: #343a40;
     margin-top: -14px;
 }
 
 .weight p{
+    color: #343a40;
     margin-top: -14px;
 }
 
 .height p {
+    color: #343a40;
     margin-top: -14px;
 }
 
 .second h5{
     padding: 10px;
-    font-size: 17px;
+    font-weight: 500;
     border-radius: 14%;
     transition: all .2s;
     background-color: #ffff;
@@ -76,6 +81,12 @@
     justify-content: space-around;
 }
 
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
 .act-btn{
     border: none;
     display: flex;
@@ -85,8 +96,8 @@
     font-weight: 600;
     padding: 12px 80px;
     border-radius: 8px;
-    background-color: #7950f2;
-    transition: all 0.2s;
+    background-color: #7448f8;
+    transition: all .1s;
 }
 
 .act-btn:hover{

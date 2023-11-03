@@ -9,9 +9,16 @@
     display: grid;
     gap: 45px;
     grid-template-columns: repeat(3,1fr);
-    padding: 100px 60px;
+    /* padding: 100px 60px; */
+    margin: 100px 50px;
 }
 
 .gym-cart{
     background-color: #ffff;
+}
+
+@media screen and (max-width:1120px) {
+    .category-container{
+        grid-template-columns: repeat(2, 1fr)
+    }
 }

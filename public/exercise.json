@@ -3,15 +3,15 @@
         "id": "01",
         "title": "Power Path",
         "age": "20-25",
-        "Time": "30s",
+        "Time": 30,
         "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
         "img": "https://cdn.shopify.com/s/files/1/0252/3155/6686/files/Rowing_Benchmark_Test_recovery.jpg?v=1690573794"
     },
     {
         "id": "02",
-        "title": "Aayam Fitness",
+        "title": "Aayam",
         "age": "20-25",
-        "Time": "40s",
+        "Time": 40,
         "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
         "img": "https://content3.jdmagicbox.com/comp/harur/y1/9999p4346.4346.210226192328.m2y1/catalogue/veera-fitness-gym-morappur-harur-fitness-centres-gyn527z8lr.jpg"
     },
@@ -19,7 +19,7 @@
         "id": "03",
         "title": "Master piece",
         "age": "20-25",
-        "Time": "60s",
+        "Time": 60,
         "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
         "img": "https://theadultman.com/wp-content/uploads/2020/12/Tempo-Studio-front-row-dumbbell-row.jpg"
     },
@@ -27,7 +27,7 @@
         "id": "04",
         "title": "Spin Magic",
         "age": "20-25",
-        "Time": "120s",
+        "Time": 20,
         "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
         "img": "https://weproject.media/upload/medialibrary/d1b/d1b2fee3481dd94941f484afcb7bef11.jpg"
     },
@@ -35,7 +35,7 @@
         "id": "05",
         "title": "Boxing Blitz Gym",
         "age": "20-25",
-        "Time": "80s",
+        "Time": 80,
         "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
         "img": "https://img.freepik.com/free-photo/man-boxing-gym_23-2148024327.jpg"
     },
@@ -43,7 +43,7 @@
         "id": "06",
         "title": "Yoga",
         "age": "20-25",
-        "Time": "100s",
+        "Time": 100,
         "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
         "img": "https://scmais.com.br/wp-content/uploads/2023/10/yoga-beneficios-yogateria.jpg"
     },
@@ -51,9 +51,41 @@
         "id": "07",
         "title": "CrossFit Combat",
         "age": "20-25",
-        "Time": "45s",
+        "Time": 45,
         "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
-        "img": "https://images.fresha.com/lead-images/placeholders/gym-and-fitness-26.jpg?class=venue-gallery-large"
+        "img": "https://t3.ftcdn.net/jpg/01/38/95/88/360_F_138958875_oSYQ9mO6l4b0ogzXK2z5ft4maW6hypTd.jpg"
+    },
+    {
+        "id": "08",
+        "title": "Power Path",
+        "age": "20-25",
+        "Time": 30,
+        "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
+        "img": "https://cdn.shopify.com/s/files/1/0252/3155/6686/files/Rowing_Benchmark_Test_recovery.jpg?v=1690573794"
+    },
+    {
+        "id": "09",
+        "title": "Gymnastics",
+        "age": "20-25",
+        "Time": 30,
+        "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
+        "img": "https://www.scottishgymnastics.org/wp-content/uploads/2023/06/EB_STOCK_31.jpg"
+    },
+    {
+        "id": "10",
+        "title": "Body Building",
+        "age": "20-25",
+        "Time": 30,
+        "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
+        "img": "https://previews.123rf.com/images/fotokvadrat/fotokvadrat1511/fotokvadrat151100013/48201119-athlete-muscular-bodybuilder-training-in-the-gym-back-training-in-gym.jpg"
+    },
+    {
+        "id": "11",
+        "title": "CrossFit",
+        "age": "20-25",
+        "Time": 30,
+        "discretion":"Lorem ipsum dolor sit amet ipsum dolor sit dolor consectetur adipisicing elit.",
+        "img": "https://hips.hearstapps.com/hmg-prod/images/cross-fit-1518811942.jpg"
     }
     
 ]

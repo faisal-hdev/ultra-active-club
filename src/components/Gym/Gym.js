@@ -5,23 +5,31 @@ import React, { useEffect, useState } from 'react';
 
 const Gym = () => {
     const [categories, setCategories] = useState([]);
+    const [userCart, userSetCart] = useState([]);
+
     useEffect(() => {
         fetch('exercise.json')
             .then(res => res.json())
             .then(data => setCategories(data));
     }, []);
+
+    const handleAddToCart = (categories) => {
+        const newCart = [...userCart, categories];
+        userSetCart(newCart);
+    };
     return (
         <div className='gym-container'>
             <div className='category-container'>
                     {
-                        categories.map(category => <Category
-                            category={category}
-                            key={category.id}
+                    categories.map(category => <Category
+                        handleAddToCart={handleAddToCart}
+                        category={category}
+                        key={category.id}
                         ></Category>)
                     }
             </div>
             <div className='gym-cart'>
-                <GymCart></GymCart>
+                <GymCart userCart={userCart}></GymCart>
            </div>
         </div>
     );
