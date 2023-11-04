@@ -4,7 +4,6 @@ import './Category.css'
 const Category = (props) => {
     const { category, handleAddToCart } = props;
     const { Time, age, title, img, discretion } = category;
-
     return (
         <div className='gym-category'>
             <img className='card-img' src={img} alt="" />

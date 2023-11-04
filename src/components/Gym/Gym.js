@@ -2,6 +2,7 @@ import './Gym.css'
 import GymCart from '../GymCart/GymCart';
 import Category from '../Category/Category';
 import React, { useEffect, useState } from 'react';
+import { addToDb } from '../../utilities/fakedb';
 
 const Gym = () => {
     const [categories, setCategories] = useState([]);
@@ -16,7 +17,9 @@ const Gym = () => {
     const handleAddToCart = (categories) => {
         const newCart = [...userCart, categories];
         userSetCart(newCart);
+        addToDb(categories.id);
     };
+
     return (
         <div className='gym-container'>
             <div className='category-container'>
