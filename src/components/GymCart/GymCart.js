@@ -42,7 +42,7 @@ const GymCart = (props) => {
           </div>
           <div style={{ marginTop: 30 }} className="exr-time">
             <h4>Break time</h4>
-            <p>{breakTime} Minute</p>
+            <p>{breakTime} Minutes</p>
           </div>
         </div>
       </div>

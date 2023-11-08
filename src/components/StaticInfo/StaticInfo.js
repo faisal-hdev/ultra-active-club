@@ -23,7 +23,7 @@ const StaticInfo = () => {
         <div className="details-info">
           <div className="weight">
             <h3>
-              58<small>kg</small>{" "}
+              58<small>kg</small>
             </h3>
             <p>Weight</p>
           </div>
@@ -33,7 +33,7 @@ const StaticInfo = () => {
           </div>
           <div className="age">
             <h3>
-              20<small>yrs</small>{" "}
+              20<small>yrs</small>
             </h3>
             <p>Age</p>
           </div>
